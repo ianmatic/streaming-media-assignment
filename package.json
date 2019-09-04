@@ -1,0 +1,30 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.9.0"
+  },
+  "description": "streaming homework",
+  "main": "./js/index.js",
+  "scripts": {
+    "test": "echo \"Tests complete\"",
+    "pretest": "eslint ./src --fix",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianmatic/streaming-media-assignment.git"
+  },
+  "author": "Ian Matic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianmatic/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/ianmatic/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
